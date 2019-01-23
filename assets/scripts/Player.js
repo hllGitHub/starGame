@@ -104,11 +104,9 @@ cc.Class({
 
         // limit player position inside screen
         if ( this.node.x > this.node.parent.width/2 ) {
-            this.node.x = this.node.parent.width/2;
-            this.xSpeed = 0;
-        } else if ( this.node.x < -this.node.parent.width/2 ){
             this.node.x = -this.node.parent.width/2;
-            this.xSpeed = 0
+        } else if ( this.node.x < -this.node.parent.width/2 ){
+            this.node.x = this.node.parent.width/2;
         }
     },
 

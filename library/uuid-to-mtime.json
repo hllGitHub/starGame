@@ -335,8 +335,8 @@
     "relativePath": "score_pop.anim"
   },
   "dd2ad631-4812-4654-a38d-01ef0f4375c6": {
-    "asset": 1548236984380,
-    "meta": 1548236984399,
+    "asset": 1548237694296,
+    "meta": 1548237694303,
     "relativePath": "scoreFX.prefab"
   },
   "901179bb-8ae3-4460-a8b8-b6fd50d8845d": {
@@ -349,19 +349,19 @@
     "meta": 1548233670329,
     "relativePath": "scripts/Star.js"
   },
-  "14a275b5-2357-4c51-95d2-b356aed65348": {
-    "asset": 1548235719461,
-    "meta": 1548235826213,
-    "relativePath": "scripts/Player.js"
-  },
   "0da43947-2911-45c6-921b-e49c8aa188fe": {
     "asset": 1548236792470,
     "meta": 1548236802005,
     "relativePath": "scripts/ScoreFX.js"
   },
   "4b305a55-ddc1-4003-b18e-f97b599e7497": {
-    "asset": 1548236905315,
-    "meta": 1548236916098,
+    "asset": 1548237257328,
+    "meta": 1548237296984,
     "relativePath": "scripts/Game.js"
+  },
+  "14a275b5-2357-4c51-95d2-b356aed65348": {
+    "asset": 1548237699587,
+    "meta": 1548237701608,
+    "relativePath": "scripts/Player.js"
   }
 }

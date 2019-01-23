@@ -152,9 +152,6 @@ var Game = cc.Class({
 
         // 播放特效
         var fx = this.spawnScoreFX();
-        // console.log("fx.node = ", fx.node)
-        // console.log("fx.component.node = ", cc.instantiate(this.scoreFXPrefab).getComponent('score'))
-        // console.log(this.player.getComponent('Player'))
         this.node.addChild(fx.node);
         fx.node.setPosition(pos);
         fx.play();
