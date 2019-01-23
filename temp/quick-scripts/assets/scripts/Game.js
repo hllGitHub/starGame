@@ -44,6 +44,10 @@ var Game = cc.Class({
             default: null,
             type: Player
         },
+        controlDisplay: {
+            default: null,
+            type: cc.Label
+        },
         btnNode: {
             default: null,
             type: cc.Node
@@ -58,7 +62,15 @@ var Game = cc.Class({
             type: cc.Label
         },
         // 得分音效资源
-        scoreAudio: cc.AudioClip
+        scoreAudio: cc.AudioClip,
+        keyboardHint: {
+            default: '',
+            multiline: true
+        },
+        touchHint: {
+            default: '',
+            multiline: true
+        }
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -78,11 +90,8 @@ var Game = cc.Class({
         this.starPool = new cc.NodePool('Star');
         this.scorePool = new cc.NodePool('ScoreFX');
 
-        // this.player.stopMove()
-
-        // var player1 = require("Player")
-        // var instance = new player1()
-        // instance.stopMove()
+        var hintText = cc.sys.isMobile ? this.touchHint : this.keyboardHint;
+        this.controlDisplay.string = hintText;
     },
 
     startGame: function startGame() {

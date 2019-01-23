@@ -1,56 +1,1541 @@
-2019-01-23T09:44:40.939Z - normal: Load ~/.CocosCreator/settings.json
-2019-01-23T09:44:40.943Z - normal: checking language setting...
-2019-01-23T09:44:40.944Z - normal: Language: zh
-2019-01-23T09:44:41.692Z - success: protocol editor-framework registered
-2019-01-23T09:44:41.693Z - success: protocol app registered
-2019-01-23T09:44:41.693Z - success: protocol theme registered
-2019-01-23T09:44:41.693Z - success: protocol packages registered
-2019-01-23T09:44:41.694Z - success: protocol unpack registerred
-2019-01-23T09:44:41.694Z - success: protocol disable-commonjs registerred
-2019-01-23T09:44:41.818Z - normal: connected!
-2019-01-23T09:44:41.821Z - normal: Check project /Users/lianglianghu/Documents/CocosProjects/start_project
-2019-01-23T09:44:41.826Z - normal: Initializing Cocos2d
-2019-01-23T09:44:42.069Z - normal: Initializing Asset Database
-2019-01-23T09:44:42.100Z - success: protocol uuid registerred
-2019-01-23T09:44:42.100Z - success: protocol db registerred
-2019-01-23T09:44:42.100Z - success: protocol thumbnail registerred
-2019-01-23T09:44:42.100Z - normal: Loading editor/builtin packages
-2019-01-23T09:44:42.117Z - success: anysdk loaded
-2019-01-23T09:44:42.224Z - success: assets loaded
-2019-01-23T09:44:42.228Z - success: builder loaded
-2019-01-23T09:44:42.231Z - success: cocos-analytics loaded
-2019-01-23T09:44:42.235Z - success: console loaded
-2019-01-23T09:44:42.264Z - success: fb-instant-games loaded
-2019-01-23T09:44:42.268Z - success: hierarchy loaded
-2019-01-23T09:44:42.272Z - success: inspector loaded
-2019-01-23T09:44:42.273Z - success: keystore loaded
-2019-01-23T09:44:42.277Z - success: node-library loaded
-2019-01-23T09:44:42.279Z - success: package-asset loaded
-2019-01-23T09:44:42.281Z - success: preferences loaded
-2019-01-23T09:44:42.284Z - success: project-exporter loaded
-2019-01-23T09:44:42.299Z - success: project-importer loaded
-2019-01-23T09:44:42.301Z - success: project-settings loaded
-2019-01-23T09:44:42.308Z - success: ui-kit loaded
-2019-01-23T09:44:42.313Z - success: ui-grid loaded
-2019-01-23T09:44:42.317Z - success: scene loaded
-2019-01-23T09:44:42.318Z - success: sprite-editor loaded
-2019-01-23T09:44:42.321Z - success: store loaded
-2019-01-23T09:44:42.327Z - success: timeline loaded
-2019-01-23T09:44:42.328Z - normal: Loading builtin packages
-2019-01-23T09:44:42.332Z - success: asset-db-debugger loaded
-2019-01-23T09:44:42.333Z - success: color-picker loaded
-2019-01-23T09:44:42.337Z - success: package-manager loaded
-2019-01-23T09:44:42.338Z - success: qqplay-adapter loaded
-2019-01-23T09:44:42.344Z - success: sdkbox loaded
-2019-01-23T09:44:42.349Z - success: tester loaded
-2019-01-23T09:44:42.353Z - success: ui-kit-preview-extra loaded
-2019-01-23T09:44:42.357Z - success: ui-kit-preview loaded
-2019-01-23T09:44:42.361Z - success: ui-tree loaded
-2019-01-23T09:44:42.362Z - success: weapp-adapter loaded
-2019-01-23T09:44:43.220Z - normal: Initializing project /Users/lianglianghu/Documents/CocosProjects/start_project
-2019-01-23T09:44:43.224Z - normal: Loading packages
-2019-01-23T09:44:43.229Z - normal: Watching packages
-2019-01-23T09:44:43.323Z - normal: Run Application
-2019-01-23T09:44:43.789Z - success: preview server running at http://localhost:7456
-2019-01-23T09:44:47.526Z - normal: 1.9.3
-2019-01-23T09:46:48.627Z - warn: Can not select this node in Animation Edit Mode
+2019-01-23T11:45:28.769Z - normal: Load ~/.CocosCreator/settings.json
+2019-01-23T11:45:28.772Z - normal: checking language setting...
+2019-01-23T11:45:28.772Z - normal: Language: zh
+2019-01-23T11:45:29.368Z - success: protocol editor-framework registered
+2019-01-23T11:45:29.368Z - success: protocol app registered
+2019-01-23T11:45:29.368Z - success: protocol theme registered
+2019-01-23T11:45:29.368Z - success: protocol packages registered
+2019-01-23T11:45:29.368Z - success: protocol unpack registerred
+2019-01-23T11:45:29.368Z - success: protocol disable-commonjs registerred
+2019-01-23T11:45:29.483Z - normal: connected!
+2019-01-23T11:45:29.486Z - normal: Check project /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T11:45:29.488Z - normal: Initializing Cocos2d
+2019-01-23T11:45:29.736Z - normal: Initializing Asset Database
+2019-01-23T11:45:29.762Z - success: protocol uuid registerred
+2019-01-23T11:45:29.762Z - success: protocol db registerred
+2019-01-23T11:45:29.762Z - success: protocol thumbnail registerred
+2019-01-23T11:45:29.763Z - normal: Loading editor/builtin packages
+2019-01-23T11:45:29.780Z - success: anysdk loaded
+2019-01-23T11:45:29.863Z - success: assets loaded
+2019-01-23T11:45:29.866Z - success: builder loaded
+2019-01-23T11:45:29.867Z - success: cocos-analytics loaded
+2019-01-23T11:45:29.870Z - success: console loaded
+2019-01-23T11:45:29.893Z - success: fb-instant-games loaded
+2019-01-23T11:45:29.896Z - success: hierarchy loaded
+2019-01-23T11:45:29.898Z - success: inspector loaded
+2019-01-23T11:45:29.899Z - success: keystore loaded
+2019-01-23T11:45:29.902Z - success: node-library loaded
+2019-01-23T11:45:29.903Z - success: package-asset loaded
+2019-01-23T11:45:29.904Z - success: preferences loaded
+2019-01-23T11:45:29.906Z - success: project-exporter loaded
+2019-01-23T11:45:29.917Z - success: project-importer loaded
+2019-01-23T11:45:29.919Z - success: project-settings loaded
+2019-01-23T11:45:29.926Z - success: ui-kit loaded
+2019-01-23T11:45:29.932Z - success: ui-grid loaded
+2019-01-23T11:45:29.936Z - success: scene loaded
+2019-01-23T11:45:29.936Z - success: sprite-editor loaded
+2019-01-23T11:45:29.940Z - success: store loaded
+2019-01-23T11:45:29.944Z - success: timeline loaded
+2019-01-23T11:45:29.944Z - normal: Loading builtin packages
+2019-01-23T11:45:29.949Z - success: asset-db-debugger loaded
+2019-01-23T11:45:29.951Z - success: color-picker loaded
+2019-01-23T11:45:29.957Z - success: package-manager loaded
+2019-01-23T11:45:29.959Z - success: qqplay-adapter loaded
+2019-01-23T11:45:29.967Z - success: sdkbox loaded
+2019-01-23T11:45:29.973Z - success: tester loaded
+2019-01-23T11:45:29.978Z - success: ui-kit-preview-extra loaded
+2019-01-23T11:45:29.983Z - success: ui-kit-preview loaded
+2019-01-23T11:45:29.988Z - success: ui-tree loaded
+2019-01-23T11:45:29.991Z - success: weapp-adapter loaded
+2019-01-23T11:45:30.664Z - normal: Initializing project /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T11:45:30.667Z - normal: Loading packages
+2019-01-23T11:45:30.672Z - normal: Watching packages
+2019-01-23T11:45:30.759Z - normal: Run Application
+2019-01-23T11:45:31.122Z - success: preview server running at http://localhost:7456
+2019-01-23T11:45:35.553Z - normal: 1.9.3
+2019-01-23T11:45:54.899Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T11:45:54.901Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T11:45:54.902Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T11:45:55.120Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T11:45:55.149Z - normal: Checked Python Version [2.7.10]
+2019-01-23T11:45:57.624Z - normal: Compiled project javascript file successfully
+2019-01-23T11:45:57.624Z - normal: Start building assets
+2019-01-23T11:45:57.624Z - normal: Start spawn build-worker
+2019-01-23T11:45:58.142Z - normal: Finish spawn build-worker
+2019-01-23T11:45:58.143Z - normal: Start init build-worker
+2019-01-23T11:45:59.506Z - normal: 1.9.3
+2019-01-23T11:45:59.584Z - normal: Finish init build-worker
+2019-01-23T11:45:59.584Z - normal: Start build-assets in worker
+2019-01-23T11:45:59.657Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T11:45:59.775Z - normal: Finish build-assets in worker
+2019-01-23T11:45:59.778Z - normal: Finish building assets
+2019-01-23T11:45:59.785Z - normal: Start building raw assets
+2019-01-23T11:45:59.786Z - normal: Start building plugin scripts
+2019-01-23T11:45:59.836Z - normal: Finish building raw assets
+2019-01-23T11:45:59.844Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T11:45:59.958Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T11:46:14.593Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T11:46:14.595Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T11:46:14.595Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T11:46:14.596Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T11:46:14.624Z - normal: Checked Python Version [2.7.10]
+2019-01-23T11:46:16.960Z - normal: Compiled project javascript file successfully
+2019-01-23T11:46:16.960Z - normal: Start building assets
+2019-01-23T11:46:16.960Z - normal: Start spawn build-worker
+2019-01-23T11:46:17.461Z - normal: Finish spawn build-worker
+2019-01-23T11:46:17.461Z - normal: Start init build-worker
+2019-01-23T11:46:18.809Z - normal: 1.9.3
+2019-01-23T11:46:18.888Z - normal: Finish init build-worker
+2019-01-23T11:46:18.888Z - normal: Start build-assets in worker
+2019-01-23T11:46:18.950Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T11:46:19.061Z - normal: Finish build-assets in worker
+2019-01-23T11:46:19.064Z - normal: Finish building assets
+2019-01-23T11:46:19.071Z - normal: Start building raw assets
+2019-01-23T11:46:19.071Z - normal: Start building plugin scripts
+2019-01-23T11:46:19.114Z - normal: Finish building raw assets
+2019-01-23T11:46:19.118Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T11:46:19.219Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T11:46:21.402Z - normal: Checked Python Version [2.7.10]
+2019-01-23T11:46:22.535Z - normal: Start to compile native project. Please wait...
+2019-01-23T11:46:22.535Z - normal: The log file path [ /Users/lianglianghu/.CocosCreator/logs/native.log ]
+2019-01-23T11:46:23.683Z - failed: Error: Compile failed. The log file path [ /Users/lianglianghu/.CocosCreator/logs/native.log ]
+    at ChildProcess.handleChildProcess (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/native-utils.js:1:20297)
+    at ChildProcess.e.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/native-utils.js:1:7685)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:194:7)
+    at maybeClose (internal/child_process.js:899:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+2019-01-23T11:47:52.815Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T11:47:52.818Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T11:47:52.818Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T11:47:52.819Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T11:47:52.861Z - normal: Checked Python Version [2.7.10]
+2019-01-23T11:47:55.263Z - normal: Compiled project javascript file successfully
+2019-01-23T11:47:55.263Z - normal: Start building assets
+2019-01-23T11:47:55.263Z - normal: Start spawn build-worker
+2019-01-23T11:47:55.772Z - normal: Finish spawn build-worker
+2019-01-23T11:47:55.773Z - normal: Start init build-worker
+2019-01-23T11:47:57.187Z - normal: 1.9.3
+2019-01-23T11:47:57.272Z - normal: Finish init build-worker
+2019-01-23T11:47:57.272Z - normal: Start build-assets in worker
+2019-01-23T11:47:57.333Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T11:47:57.445Z - normal: Finish build-assets in worker
+2019-01-23T11:47:57.448Z - normal: Finish building assets
+2019-01-23T11:47:57.456Z - normal: Start building raw assets
+2019-01-23T11:47:57.457Z - normal: Start building plugin scripts
+2019-01-23T11:47:57.504Z - normal: Finish building raw assets
+2019-01-23T11:47:57.511Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T11:47:57.614Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:01:12.326Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:01:12.329Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:01:12.329Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:01:12.330Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:01:12.365Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:01:15.091Z - normal: Compiled project javascript file successfully
+2019-01-23T12:01:15.091Z - normal: Start building assets
+2019-01-23T12:01:15.091Z - normal: Start spawn build-worker
+2019-01-23T12:01:15.782Z - normal: Finish spawn build-worker
+2019-01-23T12:01:15.782Z - normal: Start init build-worker
+2019-01-23T12:01:17.771Z - normal: 1.9.3
+2019-01-23T12:01:17.871Z - normal: Finish init build-worker
+2019-01-23T12:01:17.871Z - normal: Start build-assets in worker
+2019-01-23T12:01:17.956Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:01:18.075Z - normal: Finish build-assets in worker
+2019-01-23T12:01:18.078Z - normal: Finish building assets
+2019-01-23T12:01:18.087Z - normal: Start building raw assets
+2019-01-23T12:01:18.088Z - normal: Start building plugin scripts
+2019-01-23T12:01:18.136Z - normal: Finish building raw assets
+2019-01-23T12:01:18.143Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:01:18.267Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:01:20.072Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:01:20.073Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:01:20.073Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:01:20.074Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:01:20.102Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:01:22.764Z - normal: Compiled project javascript file successfully
+2019-01-23T12:01:22.764Z - normal: Start building assets
+2019-01-23T12:01:22.765Z - normal: Start spawn build-worker
+2019-01-23T12:01:23.312Z - normal: Finish spawn build-worker
+2019-01-23T12:01:23.312Z - normal: Start init build-worker
+2019-01-23T12:01:24.743Z - normal: 1.9.3
+2019-01-23T12:01:24.820Z - normal: Finish init build-worker
+2019-01-23T12:01:24.820Z - normal: Start build-assets in worker
+2019-01-23T12:01:24.881Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:01:25.004Z - normal: Finish build-assets in worker
+2019-01-23T12:01:25.007Z - normal: Finish building assets
+2019-01-23T12:01:25.013Z - normal: Start building raw assets
+2019-01-23T12:01:25.013Z - normal: Start building plugin scripts
+2019-01-23T12:01:25.060Z - normal: Finish building raw assets
+2019-01-23T12:01:25.064Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:01:25.162Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:08:48.616Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:08:48.626Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:08:48.626Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:08:48.627Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:08:48.677Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:08:51.299Z - normal: Compiled project javascript file successfully
+2019-01-23T12:08:51.300Z - normal: Start building assets
+2019-01-23T12:08:51.300Z - normal: Start spawn build-worker
+2019-01-23T12:08:51.871Z - normal: Finish spawn build-worker
+2019-01-23T12:08:51.871Z - normal: Start init build-worker
+2019-01-23T12:08:53.483Z - normal: 1.9.3
+2019-01-23T12:08:53.566Z - normal: Finish init build-worker
+2019-01-23T12:08:53.566Z - normal: Start build-assets in worker
+2019-01-23T12:08:53.665Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:08:53.778Z - normal: Finish build-assets in worker
+2019-01-23T12:08:53.782Z - normal: Finish building assets
+2019-01-23T12:08:53.789Z - normal: Start building raw assets
+2019-01-23T12:08:53.790Z - normal: Start building plugin scripts
+2019-01-23T12:08:53.841Z - normal: Finish building raw assets
+2019-01-23T12:08:53.849Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:08:53.963Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:25:54.773Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:25:54.781Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:25:54.781Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:25:54.782Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:25:54.818Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:25:57.499Z - normal: Compiled project javascript file successfully
+2019-01-23T12:25:57.499Z - normal: Start building assets
+2019-01-23T12:25:57.499Z - normal: Start spawn build-worker
+2019-01-23T12:25:58.095Z - normal: Finish spawn build-worker
+2019-01-23T12:25:58.095Z - normal: Start init build-worker
+2019-01-23T12:25:59.892Z - normal: 1.9.3
+2019-01-23T12:25:59.979Z - normal: Finish init build-worker
+2019-01-23T12:25:59.979Z - normal: Start build-assets in worker
+2019-01-23T12:26:00.077Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:26:00.207Z - normal: Finish build-assets in worker
+2019-01-23T12:26:00.210Z - normal: Finish building assets
+2019-01-23T12:26:00.215Z - normal: Start building raw assets
+2019-01-23T12:26:00.216Z - normal: Start building plugin scripts
+2019-01-23T12:26:00.264Z - normal: Finish building raw assets
+2019-01-23T12:26:00.269Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:26:00.380Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:27:57.841Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:27:57.845Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:27:57.845Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:27:57.846Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:27:57.876Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:28:00.425Z - normal: Compiled project javascript file successfully
+2019-01-23T12:28:00.425Z - normal: Start building assets
+2019-01-23T12:28:00.425Z - normal: Start spawn build-worker
+2019-01-23T12:28:00.975Z - normal: Finish spawn build-worker
+2019-01-23T12:28:00.976Z - normal: Start init build-worker
+2019-01-23T12:28:02.426Z - normal: 1.9.3
+2019-01-23T12:28:02.508Z - normal: Finish init build-worker
+2019-01-23T12:28:02.508Z - normal: Start build-assets in worker
+2019-01-23T12:28:02.574Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:28:02.696Z - normal: Finish build-assets in worker
+2019-01-23T12:28:02.699Z - normal: Finish building assets
+2019-01-23T12:28:02.705Z - normal: Start building raw assets
+2019-01-23T12:28:02.706Z - normal: Start building plugin scripts
+2019-01-23T12:28:02.750Z - normal: Finish building raw assets
+2019-01-23T12:28:02.761Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:28:02.872Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:29:53.089Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:29:53.093Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:29:53.093Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:29:53.094Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:29:53.126Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:29:55.508Z - normal: Compiled project javascript file successfully
+2019-01-23T12:29:55.508Z - normal: Start building assets
+2019-01-23T12:29:55.508Z - normal: Start spawn build-worker
+2019-01-23T12:29:56.017Z - normal: Finish spawn build-worker
+2019-01-23T12:29:56.017Z - normal: Start init build-worker
+2019-01-23T12:29:57.575Z - normal: 1.9.3
+2019-01-23T12:29:57.657Z - normal: Finish init build-worker
+2019-01-23T12:29:57.657Z - normal: Start build-assets in worker
+2019-01-23T12:29:57.724Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:29:57.843Z - normal: Finish build-assets in worker
+2019-01-23T12:29:57.846Z - normal: Finish building assets
+2019-01-23T12:29:57.852Z - normal: Start building raw assets
+2019-01-23T12:29:57.853Z - normal: Start building plugin scripts
+2019-01-23T12:29:57.901Z - normal: Finish building raw assets
+2019-01-23T12:29:57.911Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:29:58.023Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:30:17.848Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:30:17.850Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:30:17.851Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:30:17.851Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:30:17.880Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:30:20.362Z - normal: Compiled project javascript file successfully
+2019-01-23T12:30:20.363Z - normal: Start building assets
+2019-01-23T12:30:20.363Z - normal: Start spawn build-worker
+2019-01-23T12:30:20.906Z - normal: Finish spawn build-worker
+2019-01-23T12:30:20.906Z - normal: Start init build-worker
+2019-01-23T12:30:22.321Z - normal: 1.9.3
+2019-01-23T12:30:22.403Z - normal: Finish init build-worker
+2019-01-23T12:30:22.403Z - normal: Start build-assets in worker
+2019-01-23T12:30:22.471Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:30:22.591Z - normal: Finish build-assets in worker
+2019-01-23T12:30:22.602Z - normal: Finish building assets
+2019-01-23T12:30:22.617Z - normal: Start building raw assets
+2019-01-23T12:30:22.618Z - normal: Start building plugin scripts
+2019-01-23T12:30:22.661Z - normal: Finish building raw assets
+2019-01-23T12:30:22.664Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:30:22.765Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:32:03.849Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:32:03.852Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:32:03.852Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:32:03.853Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:32:03.884Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:32:06.589Z - normal: Compiled project javascript file successfully
+2019-01-23T12:32:06.589Z - normal: Start building assets
+2019-01-23T12:32:06.589Z - normal: Start spawn build-worker
+2019-01-23T12:32:07.099Z - normal: Finish spawn build-worker
+2019-01-23T12:32:07.100Z - normal: Start init build-worker
+2019-01-23T12:32:08.678Z - normal: 1.9.3
+2019-01-23T12:32:08.759Z - normal: Finish init build-worker
+2019-01-23T12:32:08.759Z - normal: Start build-assets in worker
+2019-01-23T12:32:08.841Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:32:08.961Z - normal: Finish build-assets in worker
+2019-01-23T12:32:08.964Z - normal: Finish building assets
+2019-01-23T12:32:08.970Z - normal: Start building raw assets
+2019-01-23T12:32:08.970Z - normal: Start building plugin scripts
+2019-01-23T12:32:09.022Z - normal: Finish building raw assets
+2019-01-23T12:32:09.030Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:32:09.144Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:33:28.250Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:33:28.251Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:33:28.251Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:33:28.252Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:33:28.280Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:33:30.884Z - normal: Compiled project javascript file successfully
+2019-01-23T12:33:30.884Z - normal: Start building assets
+2019-01-23T12:33:30.884Z - normal: Start spawn build-worker
+2019-01-23T12:33:31.428Z - normal: Finish spawn build-worker
+2019-01-23T12:33:31.428Z - normal: Start init build-worker
+2019-01-23T12:33:33.043Z - normal: 1.9.3
+2019-01-23T12:33:33.124Z - normal: Finish init build-worker
+2019-01-23T12:33:33.124Z - normal: Start build-assets in worker
+2019-01-23T12:33:33.204Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:33:33.327Z - normal: Finish build-assets in worker
+2019-01-23T12:33:33.330Z - normal: Finish building assets
+2019-01-23T12:33:33.339Z - normal: Start building raw assets
+2019-01-23T12:33:33.339Z - normal: Start building plugin scripts
+2019-01-23T12:33:33.390Z - normal: Finish building raw assets
+2019-01-23T12:33:33.394Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:33:33.496Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:36:25.045Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:36:25.049Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:36:25.049Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:36:25.050Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:36:25.084Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:36:27.975Z - normal: Compiled project javascript file successfully
+2019-01-23T12:36:27.975Z - normal: Start building assets
+2019-01-23T12:36:27.975Z - normal: Start spawn build-worker
+2019-01-23T12:36:28.518Z - normal: Finish spawn build-worker
+2019-01-23T12:36:28.519Z - normal: Start init build-worker
+2019-01-23T12:36:30.238Z - normal: 1.9.3
+2019-01-23T12:36:30.327Z - normal: Finish init build-worker
+2019-01-23T12:36:30.327Z - normal: Start build-assets in worker
+2019-01-23T12:36:30.421Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:36:30.545Z - normal: Finish build-assets in worker
+2019-01-23T12:36:30.548Z - normal: Finish building assets
+2019-01-23T12:36:30.554Z - normal: Start building raw assets
+2019-01-23T12:36:30.555Z - normal: Start building plugin scripts
+2019-01-23T12:36:30.606Z - normal: Finish building raw assets
+2019-01-23T12:36:30.614Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:36:30.732Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:38:01.927Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:38:01.931Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:38:01.931Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:38:01.932Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:38:01.967Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:38:04.505Z - normal: Compiled project javascript file successfully
+2019-01-23T12:38:04.505Z - normal: Start building assets
+2019-01-23T12:38:04.505Z - normal: Start spawn build-worker
+2019-01-23T12:38:05.068Z - normal: Finish spawn build-worker
+2019-01-23T12:38:05.068Z - normal: Start init build-worker
+2019-01-23T12:38:06.610Z - normal: 1.9.3
+2019-01-23T12:38:06.690Z - normal: Finish init build-worker
+2019-01-23T12:38:06.690Z - normal: Start build-assets in worker
+2019-01-23T12:38:06.770Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:38:06.883Z - normal: Finish build-assets in worker
+2019-01-23T12:38:06.885Z - normal: Finish building assets
+2019-01-23T12:38:06.891Z - normal: Start building raw assets
+2019-01-23T12:38:06.892Z - normal: Start building plugin scripts
+2019-01-23T12:38:06.937Z - normal: Finish building raw assets
+2019-01-23T12:38:06.944Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:38:07.051Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:39:23.042Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:39:23.043Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:39:23.043Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:39:23.043Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:39:23.069Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:39:25.565Z - normal: Compiled project javascript file successfully
+2019-01-23T12:39:25.565Z - normal: Start building assets
+2019-01-23T12:39:25.565Z - normal: Start spawn build-worker
+2019-01-23T12:39:26.084Z - normal: Finish spawn build-worker
+2019-01-23T12:39:26.084Z - normal: Start init build-worker
+2019-01-23T12:39:27.561Z - normal: 1.9.3
+2019-01-23T12:39:27.642Z - normal: Finish init build-worker
+2019-01-23T12:39:27.642Z - normal: Start build-assets in worker
+2019-01-23T12:39:27.705Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:39:27.822Z - normal: Finish build-assets in worker
+2019-01-23T12:39:27.824Z - normal: Finish building assets
+2019-01-23T12:39:27.830Z - normal: Start building raw assets
+2019-01-23T12:39:27.831Z - normal: Start building plugin scripts
+2019-01-23T12:39:27.873Z - normal: Finish building raw assets
+2019-01-23T12:39:27.877Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:39:27.979Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:41:00.395Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:41:00.399Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:41:00.399Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:41:00.402Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:41:00.432Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:41:03.032Z - normal: Compiled project javascript file successfully
+2019-01-23T12:41:03.032Z - normal: Start building assets
+2019-01-23T12:41:03.032Z - normal: Start spawn build-worker
+2019-01-23T12:41:03.568Z - normal: Finish spawn build-worker
+2019-01-23T12:41:03.568Z - normal: Start init build-worker
+2019-01-23T12:41:05.120Z - normal: 1.9.3
+2019-01-23T12:41:05.199Z - normal: Finish init build-worker
+2019-01-23T12:41:05.199Z - normal: Start build-assets in worker
+2019-01-23T12:41:05.280Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:41:05.391Z - normal: Finish build-assets in worker
+2019-01-23T12:41:05.394Z - normal: Finish building assets
+2019-01-23T12:41:05.401Z - normal: Start building raw assets
+2019-01-23T12:41:05.402Z - normal: Start building plugin scripts
+2019-01-23T12:41:05.454Z - normal: Finish building raw assets
+2019-01-23T12:41:05.461Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:41:05.568Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:43:01.435Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:43:01.439Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:43:01.439Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:43:01.440Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:43:01.475Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:43:04.153Z - normal: Compiled project javascript file successfully
+2019-01-23T12:43:04.153Z - normal: Start building assets
+2019-01-23T12:43:04.153Z - normal: Start spawn build-worker
+2019-01-23T12:43:04.688Z - normal: Finish spawn build-worker
+2019-01-23T12:43:04.688Z - normal: Start init build-worker
+2019-01-23T12:43:06.359Z - normal: 1.9.3
+2019-01-23T12:43:06.449Z - normal: Finish init build-worker
+2019-01-23T12:43:06.449Z - normal: Start build-assets in worker
+2019-01-23T12:43:06.545Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:43:06.672Z - normal: Finish build-assets in worker
+2019-01-23T12:43:06.676Z - normal: Finish building assets
+2019-01-23T12:43:06.682Z - normal: Start building raw assets
+2019-01-23T12:43:06.683Z - normal: Start building plugin scripts
+2019-01-23T12:43:06.730Z - normal: Finish building raw assets
+2019-01-23T12:43:06.736Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:43:06.847Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully
+2019-01-23T12:45:19.374Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/lianglianghu/Documents/CocosProjects/start_project/build",
+  "debug": true,
+  "dest": "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default",
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "e5e86206-0e27-4463-a13d-9c017f00b1d0"
+  ],
+  "sourceMaps": false,
+  "startScene": "e5e86206-0e27-4463-a13d-9c017f00b1d0",
+  "template": "default",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d9b0ae4e-2ffa-4b",
+  "zipCompressJs": true,
+  "project": "/Users/lianglianghu/Documents/CocosProjects/start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2019-01-23T12:45:19.378Z - normal: Building /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T12:45:19.378Z - normal: Destination /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default
+2019-01-23T12:45:19.379Z - normal: Delete /Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/res/**/*,/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default/src/*/
+2019-01-23T12:45:19.412Z - normal: Checked Python Version [2.7.10]
+2019-01-23T12:45:21.963Z - normal: Compiled project javascript file successfully
+2019-01-23T12:45:21.963Z - normal: Start building assets
+2019-01-23T12:45:21.963Z - normal: Start spawn build-worker
+2019-01-23T12:45:22.484Z - normal: Finish spawn build-worker
+2019-01-23T12:45:22.484Z - normal: Start init build-worker
+2019-01-23T12:45:24.120Z - normal: 1.9.3
+2019-01-23T12:45:24.199Z - normal: Finish init build-worker
+2019-01-23T12:45:24.199Z - normal: Start build-assets in worker
+2019-01-23T12:45:24.279Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2019-01-23T12:45:24.392Z - normal: Finish build-assets in worker
+2019-01-23T12:45:24.395Z - normal: Finish building assets
+2019-01-23T12:45:24.401Z - normal: Start building raw assets
+2019-01-23T12:45:24.402Z - normal: Start building plugin scripts
+2019-01-23T12:45:24.450Z - normal: Finish building raw assets
+2019-01-23T12:45:24.456Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-01-23T12:45:24.558Z - normal: Built to "/Users/lianglianghu/Documents/CocosProjects/start_project/build/jsb-default" successfully

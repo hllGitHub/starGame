@@ -2,7 +2,7 @@
 cc._RF.push(module, '14a27W1I1dMUZXSs1au1lNI', 'Player', __filename);
 // scripts/Player.js
 
-"use strict";
+'use strict';
 
 cc.Class({
     extends: cc.Component,
@@ -67,6 +67,18 @@ cc.Class({
         // // 初始化键盘监听
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+
+        // 监听触摸
+        var touchReceiver = cc.Canvas.instance.node;
+        // console.log('touchReveiver = ' + touchReceiver)
+        // touchReceiver.off('touchstart', this.onTouchStart, this)
+        // touchReceiver.off('touchend', this.onTouchEnd, this)
+
+        // touchReceiver.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this)
+        // touchReceiver.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this)
+
+        touchReceiver.on('touchstart', this.onTouchStart, this);
+        touchReceiver.on('touchend', this.onTouchEnd, this);
     },
 
     onKeyDown: function onKeyDown(event) {
@@ -92,6 +104,22 @@ cc.Class({
                 break;
         }
     },
+    onTouchStart: function onTouchStart(event) {
+        console.log('触摸了屏幕');
+        var touchLoc = event.getLocation();
+        if (touchLoc.x >= cc.winSize.width / 2) {
+            this.accLeft = false;
+            this.accRight = true;
+        } else {
+            this.accLeft = true;
+            this.accRight = false;
+        }
+    },
+    onTouchEnd: function onTouchEnd(event) {
+        console.log('停止触摸屏幕');
+        this.accLeft = false;
+        this.accRight = false;
+    },
 
 
     update: function update(dt) {
@@ -112,10 +140,8 @@ cc.Class({
         // limit player position inside screen
         if (this.node.x > this.node.parent.width / 2) {
             this.node.x = -this.node.parent.width / 2;
-            // this.xSpeed = 0;
         } else if (this.node.x < -this.node.parent.width / 2) {
             this.node.x = this.node.parent.width / 2;
-            // this.xSpeed = 0
         }
     },
 
@@ -123,6 +149,10 @@ cc.Class({
         // 取消键盘输入监听
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.off(cc.systemEvent.EventType.KEY_UP, this.onKeyUp, this);
+
+        var touchReceiver = cc.Canvas.instance.node;
+        touchReceiver.off('touchstart', this.onTouchStart, this);
+        touchReceiver.off('touchend', this.onTouchEnd, this);
     }
 });
 

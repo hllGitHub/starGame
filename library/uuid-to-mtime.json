@@ -95,8 +95,8 @@
     "relativePath": "textures/star.png"
   },
   "e5e86206-0e27-4463-a13d-9c017f00b1d0": {
-    "asset": 1548231651187,
-    "meta": 1548231651192,
+    "asset": 1548247514548,
+    "meta": 1548247514554,
     "relativePath": "game.fire"
   },
   "977f7164-5214-4a44-b1c0-3688ce80ccbb": {
@@ -355,13 +355,13 @@
     "relativePath": "scripts/ScoreFX.js"
   },
   "4b305a55-ddc1-4003-b18e-f97b599e7497": {
-    "asset": 1548237257328,
-    "meta": 1548237296984,
+    "asset": 1548247203706,
+    "meta": 1548247254309,
     "relativePath": "scripts/Game.js"
   },
   "14a275b5-2357-4c51-95d2-b356aed65348": {
-    "asset": 1548237699587,
-    "meta": 1548237701608,
+    "asset": 1548247512236,
+    "meta": 1548247513271,
     "relativePath": "scripts/Player.js"
   }
 }
