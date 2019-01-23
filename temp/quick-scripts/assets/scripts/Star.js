@@ -38,8 +38,6 @@ cc.Class({
         this.game = game;
         this.enabled = true;
         this.node.opacity = 255;
-
-        console.log("初始化了星星的opacity" + this.node.opacity);
     },
 
     reuse: function reuse(game) {
@@ -67,10 +65,6 @@ cc.Class({
         var opacityRatio = 1 - this.game.timer / this.game.starDuration;
         var minOpacity = 50;
         this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
-        console.log(this.game.timer);
-        console.log(this.game.starDuration);
-        console.log(opacityRatio);
-        console.log("更新星星的opacity" + this.node.opacity);
     },
 
     start: function start() {}

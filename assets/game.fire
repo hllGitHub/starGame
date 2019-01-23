@@ -699,6 +699,9 @@
     "starPrefab": {
       "__uuid__": "0c294f57-772c-4481-84e6-beac3e65634b"
     },
+    "scoreFXPrefab": {
+      "__uuid__": "dd2ad631-4812-4654-a38d-01ef0f4375c6"
+    },
     "maxStarDuration": 5,
     "minStarDuration": 3,
     "ground": {

@@ -70,9 +70,6 @@ cc.Class({
     },
 
     onKeyDown: function onKeyDown(event) {
-        console.log("keyCode = " + event.keyCode);
-        console.log("a = " + cc.KEY.a);
-        console.log("d = " + cc.KEY.d);
         switch (event.keyCode) {
             case cc.KEY.a:
                 this.accLeft = true;
@@ -100,10 +97,8 @@ cc.Class({
     update: function update(dt) {
         if (this.accLeft) {
             this.xSpeed -= this.accel * dt;
-            console.log(this.node.x);
         } else if (this.accRight) {
             this.xSpeed += this.accel * dt;
-            console.log(this.node.x);
         }
 
         // 限制主角的速度不能超过最大值

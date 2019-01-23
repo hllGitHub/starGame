@@ -16,6 +16,7 @@ cc._RF.push(module, '4b305pV3cFAA7GO+XtZnnSX', 'Game');
 
 var Player = require('Player');
 var Star = require('Star');
+var ScoreFX = require('ScoreFX');
 
 var Game = cc.Class({
     extends: cc.Component,
@@ -23,6 +24,10 @@ var Game = cc.Class({
     properties: {
         // 这个属性引用了星星预制资源
         starPrefab: {
+            default: null,
+            type: cc.Prefab
+        },
+        scoreFXPrefab: {
             default: null,
             type: cc.Prefab
         },
@@ -71,6 +76,7 @@ var Game = cc.Class({
         this.enabled = false;
 
         this.starPool = new cc.NodePool('Star');
+        this.scorePool = new cc.NodePool('ScoreFX');
 
         // this.player.stopMove()
 
@@ -140,6 +146,45 @@ var Game = cc.Class({
         return cc.v2(randX, randY);
     },
 
+    gainScore: function gainScore(pos) {
+        this.score += 1;
+        this.scoreDisplay.string = 'Score: ' + this.score;
+
+        // 播放特效
+        var fx = this.spawnScoreFX();
+        // console.log("fx.node = ", fx.node)
+        // console.log("fx.component.node = ", cc.instantiate(this.scoreFXPrefab).getComponent('score'))
+        // console.log(this.player.getComponent('Player'))
+        this.node.addChild(fx.node);
+        fx.node.setPosition(pos);
+        fx.play();
+
+        cc.audioEngine.playEffect(this.scoreAudio, false);
+    },
+
+    resetScore: function resetScore() {
+        this.score = 0;
+        this.scoreDisplay.string = 'Score: ' + this.score.toString();
+    },
+
+    spawnScoreFX: function spawnScoreFX() {
+        var fx;
+        if (this.scorePool.size() > 0) {
+            fx = this.scorePool.get();
+            return fx.getComponent('ScoreFX');
+        } else {
+            fx = cc.instantiate(this.scoreFXPrefab).getComponent('ScoreFX');
+            console.log("fx is " + fx);
+            fx.init(this);
+            return fx;
+        }
+    },
+
+    despawnScoreFX: function despawnScoreFX(scoreFX) {
+        this.scorePool.put(scoreFX);
+    },
+
+
     // 一帧，1s有60帧，所以update的时间大约是0.01667左右
     update: function update(dt) {
         if (this.timer > this.starDuration) {
@@ -148,20 +193,8 @@ var Game = cc.Class({
             return;
         }
         this.timer += dt;
-        console.log('this.timer = ' + this.timer);
     },
 
-
-    gainScore: function gainScore() {
-        this.score += 1;
-        this.scoreDisplay.string = 'Score: ' + this.score;
-        cc.audioEngine.playEffect(this.scoreAudio, false);
-    },
-
-    resetScore: function resetScore() {
-        this.score = 0;
-        this.scoreDisplay.string = 'Score: ' + this.score.toString();
-    },
 
     gameOver: function gameOver() {
         console.log("游戏结束了");

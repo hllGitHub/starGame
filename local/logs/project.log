@@ -1,200 +1,56 @@
-2019-01-22T11:33:48.822Z - normal: Load ~/.CocosCreator/settings.json
-2019-01-22T11:33:48.825Z - normal: checking language setting...
-2019-01-22T11:33:48.826Z - normal: Language: zh
-2019-01-22T11:33:49.549Z - success: protocol editor-framework registered
-2019-01-22T11:33:49.550Z - success: protocol app registered
-2019-01-22T11:33:49.550Z - success: protocol theme registered
-2019-01-22T11:33:49.550Z - success: protocol packages registered
-2019-01-22T11:33:49.551Z - success: protocol unpack registerred
-2019-01-22T11:33:49.551Z - success: protocol disable-commonjs registerred
-2019-01-22T11:33:49.684Z - normal: connected!
-2019-01-22T11:33:49.687Z - normal: Check project /Users/lianglianghu/Documents/CocosProjects/start_project
-2019-01-22T11:33:49.689Z - normal: Initializing Cocos2d
-2019-01-22T11:33:49.902Z - normal: Initializing Asset Database
-2019-01-22T11:33:49.933Z - success: protocol uuid registerred
-2019-01-22T11:33:49.933Z - success: protocol db registerred
-2019-01-22T11:33:49.933Z - success: protocol thumbnail registerred
-2019-01-22T11:33:49.933Z - normal: Loading editor/builtin packages
-2019-01-22T11:33:49.951Z - success: anysdk loaded
-2019-01-22T11:33:50.057Z - success: assets loaded
-2019-01-22T11:33:50.060Z - success: builder loaded
-2019-01-22T11:33:50.062Z - success: cocos-analytics loaded
-2019-01-22T11:33:50.067Z - success: console loaded
-2019-01-22T11:33:50.095Z - success: fb-instant-games loaded
-2019-01-22T11:33:50.100Z - success: hierarchy loaded
-2019-01-22T11:33:50.104Z - success: inspector loaded
-2019-01-22T11:33:50.106Z - success: keystore loaded
-2019-01-22T11:33:50.109Z - success: node-library loaded
-2019-01-22T11:33:50.112Z - success: package-asset loaded
-2019-01-22T11:33:50.114Z - success: preferences loaded
-2019-01-22T11:33:50.117Z - success: project-exporter loaded
-2019-01-22T11:33:50.133Z - success: project-importer loaded
-2019-01-22T11:33:50.136Z - success: project-settings loaded
-2019-01-22T11:33:50.140Z - success: ui-kit loaded
-2019-01-22T11:33:50.144Z - success: ui-grid loaded
-2019-01-22T11:33:50.147Z - success: scene loaded
-2019-01-22T11:33:50.149Z - success: sprite-editor loaded
-2019-01-22T11:33:50.152Z - success: store loaded
-2019-01-22T11:33:50.158Z - success: timeline loaded
-2019-01-22T11:33:50.158Z - normal: Loading builtin packages
-2019-01-22T11:33:50.162Z - success: asset-db-debugger loaded
-2019-01-22T11:33:50.162Z - success: color-picker loaded
-2019-01-22T11:33:50.167Z - success: package-manager loaded
-2019-01-22T11:33:50.169Z - success: qqplay-adapter loaded
-2019-01-22T11:33:50.175Z - success: sdkbox loaded
-2019-01-22T11:33:50.179Z - success: tester loaded
-2019-01-22T11:33:50.184Z - success: ui-kit-preview-extra loaded
-2019-01-22T11:33:50.187Z - success: ui-kit-preview loaded
-2019-01-22T11:33:50.191Z - success: ui-tree loaded
-2019-01-22T11:33:50.192Z - success: weapp-adapter loaded
-2019-01-22T11:33:51.029Z - normal: Initializing project /Users/lianglianghu/Documents/CocosProjects/start_project
-2019-01-22T11:33:51.032Z - normal: Loading packages
-2019-01-22T11:33:51.037Z - normal: Watching packages
-2019-01-22T11:33:51.123Z - normal: Run Application
-2019-01-22T11:33:52.001Z - success: preview server running at http://localhost:7456
-2019-01-22T11:33:55.457Z - normal: 1.9.3
-2019-01-23T02:20:58.557Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:49007
-2019-01-23T02:20:58.559Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:49009
-2019-01-23T02:59:53.884Z - warn: The 'type' attribute of 'Game.scoreAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T02:59:53.887Z - warn: The 'type' attribute of 'Player.jumpAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T03:01:06.839Z - warn: The 'type' attribute of 'Game.scoreAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T03:01:06.840Z - warn: The 'type' attribute of 'Player.jumpAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T03:03:25.757Z - error: Property 'Game.scoreAudio' must define at least one of 'default', 'get' or 'set'.
-    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
-    at Object.exports.preprocessAttrs (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/preprocess-class.js:232:28)
-    at declareProperties (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:807:20)
-    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:947:9)
-    at __define (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:17:4)
-    at /Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:119:13
-    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:126:11)
-    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:129:3)
-    at Module._compile (module.js:571:32)
-2019-01-23T03:03:25.758Z - warn: The 'type' attribute of 'Game.scoreAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T03:03:25.758Z - error: Property 'Player.jumpAudio' must define at least one of 'default', 'get' or 'set'.
-    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
-    at Object.exports.preprocessAttrs (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/preprocess-class.js:232:28)
-    at declareProperties (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:807:20)
-    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:947:9)
-    at __define (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Player.js:17:4)
-    at /Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Player.js:131:13
-    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Player.js:138:11)
-    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Player.js:141:3)
-    at Module._compile (module.js:571:32)
-2019-01-23T03:03:25.759Z - warn: The 'type' attribute of 'Player.jumpAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T03:03:36.993Z - warn: The 'type' attribute of 'Game.scoreAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T03:03:36.994Z - warn: The 'type' attribute of 'Player.jumpAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T03:04:07.910Z - warn: The 'type' attribute of 'Game.scoreAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
-2019-01-23T03:15:31.344Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:92029
-2019-01-23T03:21:01.277Z - error: Can not declare Game.start, it is already defined in the prototype of Game
-    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
-    at defineProp (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:136:16)
-    at declareProperties (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:812:17)
-    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:947:9)
-    at __define (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:17:4)
-    at /Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:120:13
-    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:127:11)
-    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:130:3)
-    at Module._compile (module.js:571:32)
-2019-01-23T03:25:58.292Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
-  42 |         // 得分音效资源
-  43 |         scoreAudio: cc.AudioClip,
-> 44 |         isStart = false
-     |                 ^
-  45 |     },
-  46 | 
-  47 |     // LIFE-CYCLE CALLBACKS:
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
-    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
-    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
-    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-2019-01-23T03:25:58.494Z - error: Can not declare Game.start, it is already defined in the prototype of Game
-    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
-    at defineProp (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:136:16)
-    at declareProperties (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:812:17)
-    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:947:9)
-    at __define (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:17:4)
-    at /Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:120:13
-    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:127:11)
-    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:130:3)
-    at Module._compile (module.js:571:32)
-2019-01-23T03:29:22.739Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
-  42 |         // 得分音效资源
-  43 |         scoreAudio: cc.AudioClip,
-> 44 |         isStart = false
-     |                 ^
-  45 |     },
-  46 | 
-  47 |     // LIFE-CYCLE CALLBACKS:
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
-    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
-    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
-    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-2019-01-23T03:30:09.558Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107509
-2019-01-23T03:32:25.917Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
-  42 |         // 得分音效资源
-  43 |         scoreAudio: cc.AudioClip,
-> 44 |         isStart = false
-     |                 ^
-  45 |     },
-  46 | 
-  47 |     // LIFE-CYCLE CALLBACKS:
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
-    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
-    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
-    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-2019-01-23T03:32:51.444Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
-  42 |         // 得分音效资源
-  43 |         scoreAudio: cc.AudioClip,
-> 44 |         isStart = false
-     |                 ^
-  45 |     },
-  46 | 
-  47 |     // LIFE-CYCLE CALLBACKS:
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
-    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
-    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
-    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-2019-01-23T03:33:16.448Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
-  42 |         // 得分音效资源
-  43 |         scoreAudio: cc.AudioClip,
-> 44 |         isStart = false
-     |                 ^
-  45 |     },
-  46 | 
-  47 |     // LIFE-CYCLE CALLBACKS:
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
-    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
-    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
-    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-2019-01-23T05:11:41.741Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:155458
-2019-01-23T06:40:47.450Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:217567
+2019-01-23T09:44:40.939Z - normal: Load ~/.CocosCreator/settings.json
+2019-01-23T09:44:40.943Z - normal: checking language setting...
+2019-01-23T09:44:40.944Z - normal: Language: zh
+2019-01-23T09:44:41.692Z - success: protocol editor-framework registered
+2019-01-23T09:44:41.693Z - success: protocol app registered
+2019-01-23T09:44:41.693Z - success: protocol theme registered
+2019-01-23T09:44:41.693Z - success: protocol packages registered
+2019-01-23T09:44:41.694Z - success: protocol unpack registerred
+2019-01-23T09:44:41.694Z - success: protocol disable-commonjs registerred
+2019-01-23T09:44:41.818Z - normal: connected!
+2019-01-23T09:44:41.821Z - normal: Check project /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T09:44:41.826Z - normal: Initializing Cocos2d
+2019-01-23T09:44:42.069Z - normal: Initializing Asset Database
+2019-01-23T09:44:42.100Z - success: protocol uuid registerred
+2019-01-23T09:44:42.100Z - success: protocol db registerred
+2019-01-23T09:44:42.100Z - success: protocol thumbnail registerred
+2019-01-23T09:44:42.100Z - normal: Loading editor/builtin packages
+2019-01-23T09:44:42.117Z - success: anysdk loaded
+2019-01-23T09:44:42.224Z - success: assets loaded
+2019-01-23T09:44:42.228Z - success: builder loaded
+2019-01-23T09:44:42.231Z - success: cocos-analytics loaded
+2019-01-23T09:44:42.235Z - success: console loaded
+2019-01-23T09:44:42.264Z - success: fb-instant-games loaded
+2019-01-23T09:44:42.268Z - success: hierarchy loaded
+2019-01-23T09:44:42.272Z - success: inspector loaded
+2019-01-23T09:44:42.273Z - success: keystore loaded
+2019-01-23T09:44:42.277Z - success: node-library loaded
+2019-01-23T09:44:42.279Z - success: package-asset loaded
+2019-01-23T09:44:42.281Z - success: preferences loaded
+2019-01-23T09:44:42.284Z - success: project-exporter loaded
+2019-01-23T09:44:42.299Z - success: project-importer loaded
+2019-01-23T09:44:42.301Z - success: project-settings loaded
+2019-01-23T09:44:42.308Z - success: ui-kit loaded
+2019-01-23T09:44:42.313Z - success: ui-grid loaded
+2019-01-23T09:44:42.317Z - success: scene loaded
+2019-01-23T09:44:42.318Z - success: sprite-editor loaded
+2019-01-23T09:44:42.321Z - success: store loaded
+2019-01-23T09:44:42.327Z - success: timeline loaded
+2019-01-23T09:44:42.328Z - normal: Loading builtin packages
+2019-01-23T09:44:42.332Z - success: asset-db-debugger loaded
+2019-01-23T09:44:42.333Z - success: color-picker loaded
+2019-01-23T09:44:42.337Z - success: package-manager loaded
+2019-01-23T09:44:42.338Z - success: qqplay-adapter loaded
+2019-01-23T09:44:42.344Z - success: sdkbox loaded
+2019-01-23T09:44:42.349Z - success: tester loaded
+2019-01-23T09:44:42.353Z - success: ui-kit-preview-extra loaded
+2019-01-23T09:44:42.357Z - success: ui-kit-preview loaded
+2019-01-23T09:44:42.361Z - success: ui-tree loaded
+2019-01-23T09:44:42.362Z - success: weapp-adapter loaded
+2019-01-23T09:44:43.220Z - normal: Initializing project /Users/lianglianghu/Documents/CocosProjects/start_project
+2019-01-23T09:44:43.224Z - normal: Loading packages
+2019-01-23T09:44:43.229Z - normal: Watching packages
+2019-01-23T09:44:43.323Z - normal: Run Application
+2019-01-23T09:44:43.789Z - success: preview server running at http://localhost:7456
+2019-01-23T09:44:47.526Z - normal: 1.9.3
+2019-01-23T09:46:48.627Z - warn: Can not select this node in Animation Edit Mode
