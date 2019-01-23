@@ -84,3 +84,117 @@
 2019-01-23T03:03:36.993Z - warn: The 'type' attribute of 'Game.scoreAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
 2019-01-23T03:03:36.994Z - warn: The 'type' attribute of 'Player.jumpAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
 2019-01-23T03:04:07.910Z - warn: The 'type' attribute of 'Game.scoreAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2019-01-23T03:15:31.344Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:92029
+2019-01-23T03:21:01.277Z - error: Can not declare Game.start, it is already defined in the prototype of Game
+    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
+    at defineProp (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:136:16)
+    at declareProperties (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:812:17)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:947:9)
+    at __define (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:17:4)
+    at /Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:120:13
+    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:127:11)
+    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:130:3)
+    at Module._compile (module.js:571:32)
+2019-01-23T03:25:58.292Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
+  42 |         // 得分音效资源
+  43 |         scoreAudio: cc.AudioClip,
+> 44 |         isStart = false
+     |                 ^
+  45 |     },
+  46 | 
+  47 |     // LIFE-CYCLE CALLBACKS:
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+2019-01-23T03:25:58.494Z - error: Can not declare Game.start, it is already defined in the prototype of Game
+    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
+    at defineProp (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:136:16)
+    at declareProperties (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:812:17)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:947:9)
+    at __define (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:17:4)
+    at /Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:120:13
+    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:127:11)
+    at Object.<anonymous> (/Users/lianglianghu/Documents/CocosProjects/start_project/temp/quick-scripts/assets/scripts/Game.js:130:3)
+    at Module._compile (module.js:571:32)
+2019-01-23T03:29:22.739Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
+  42 |         // 得分音效资源
+  43 |         scoreAudio: cc.AudioClip,
+> 44 |         isStart = false
+     |                 ^
+  45 |     },
+  46 | 
+  47 |     // LIFE-CYCLE CALLBACKS:
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+2019-01-23T03:30:09.558Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107509
+2019-01-23T03:32:25.917Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
+  42 |         // 得分音效资源
+  43 |         scoreAudio: cc.AudioClip,
+> 44 |         isStart = false
+     |                 ^
+  45 |     },
+  46 | 
+  47 |     // LIFE-CYCLE CALLBACKS:
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+2019-01-23T03:32:51.444Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
+  42 |         // 得分音效资源
+  43 |         scoreAudio: cc.AudioClip,
+> 44 |         isStart = false
+     |                 ^
+  45 |     },
+  46 | 
+  47 |     // LIFE-CYCLE CALLBACKS:
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+2019-01-23T03:33:16.448Z - failed: [db-task][sync-changes] Failed to import asset /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/lianglianghu/Documents/CocosProjects/start_project/assets/scripts/Game.js: Unexpected token (44:16)
+  42 |         // 得分音效资源
+  43 |         scoreAudio: cc.AudioClip,
+> 44 |         isStart = false
+     |                 ^
+  45 |     },
+  46 | 
+  47 |     // LIFE-CYCLE CALLBACKS:
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3370:10)
+    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3573:20)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+2019-01-23T05:11:41.741Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:155458
+2019-01-23T06:40:47.450Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:217567

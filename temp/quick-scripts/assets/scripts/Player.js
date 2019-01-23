@@ -4,16 +4,6 @@ cc._RF.push(module, '14a27W1I1dMUZXSs1au1lNI', 'Player', __filename);
 
 "use strict";
 
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
 cc.Class({
     extends: cc.Component,
 
@@ -45,19 +35,34 @@ cc.Class({
         cc.audioEngine.playEffect(this.jumpAudio, false);
     },
 
+    getCenterPos: function getCenterPos() {
+        var centerPos = cc.v2(this.node.x, this.node.y + this.node.height / 2);
+        return centerPos;
+    },
+
+    startMoveAt: function startMoveAt(pos) {
+        this.enabled = true;
+        this.xSpeed = 0;
+        this.node.setPosition(pos);
+        this.node.runAction(this.setJumpAction());
+    },
+
+    stopMove: function stopMove() {
+        this.node.stopAllActions();
+    },
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
-        // 初始化跳跃动作
-        this.jumpAction = this.setJumpAction();
-        this.node.runAction(this.setJumpAction());
-
-        // // 加速度方向开关
+        //  this.startGame()
+        this.enabled = false;
+        // 加速度方向开关
         this.accLeft = false;
         this.accRight = false;
-
-        // 初始化当前速度
+        // 主角当前水平方向速度
         this.xSpeed = 0;
+        this.minPosX = -this.node.parent.width / 2;
+        this.maxPosX = this.node.parent.width / 2;
 
         // // 初始化键盘监听
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
@@ -108,6 +113,15 @@ cc.Class({
 
         // 根据当前速度更新主角的位置
         this.node.x += this.xSpeed * dt;
+
+        // limit player position inside screen
+        if (this.node.x > this.node.parent.width / 2) {
+            this.node.x = this.node.parent.width / 2;
+            this.xSpeed = 0;
+        } else if (this.node.x < -this.node.parent.width / 2) {
+            this.node.x = -this.node.parent.width / 2;
+            this.xSpeed = 0;
+        }
     },
 
     onDescroy: function onDescroy() {
@@ -115,11 +129,6 @@ cc.Class({
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.off(cc.systemEvent.EventType.KEY_UP, this.onKeyUp, this);
     }
-
-    // start: function () {
-    //     this.setJumpAction()
-    // },
-
 });
 
 cc._RF.pop();

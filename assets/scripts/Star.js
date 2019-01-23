@@ -22,19 +22,30 @@ cc.Class({
 
     getPlayerDistance: function() {
         // 根据player节点位置判断距离
-        var playerPos = this.game.player.getPosition()
+        var playerPos = this.game.player.getCenterPos()
         // 根据两点位置计算两点之间距离
         var dist = this.node.position.sub(playerPos).mag();
         return dist
     },
 
+    init: function(game) {
+        this.game = game
+        this.enabled = true
+        this.node.opacity = 255
+
+        console.log("初始化了星星的opacity" + this.node.opacity)
+    },
+
+    reuse (game) {
+        this.init(game);
+    },
+
     onPicker: function() {
-        // 当星星被收集的时候，调用 Game 脚本中的接口，生成一个新的星星
-        this.game.spawnNewStar();
+        var pos = this.node.getPosition()
         // 调用 Game 脚本的得分方法
-        this.game.gainScore();
-        // 然后销毁当前星星节点
-        this.node.destroy();
+        this.game.gainScore(pos)
+        // 当星星被收集时，调用 Game 脚本中的接口，销毁当前星星节点，生成一个新的星星
+        this.game.despawnStar(this.node)
     },
 
     update: function() {
@@ -49,6 +60,10 @@ cc.Class({
         var opacityRatio = 1 - this.game.timer/this.game.starDuration;
         var minOpacity = 50;
         this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
+        console.log(this.game.timer)
+        console.log(this.game.starDuration)
+        console.log(opacityRatio)
+        console.log("更新星星的opacity" + this.node.opacity)
     },
 
     start () {

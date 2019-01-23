@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 36,
-      "y": 117,
+      "x": 90,
+      "y": 127,
       "width": 1280,
       "height": 720,
       "layout": {
@@ -39,28 +39,12 @@
           {
             "children": [
               {
+                "active": 0,
                 "children": [
-                  {
-                    "active": 0,
-                    "children": [
-                      "scene"
-                    ],
-                    "height": 326,
-                    "type": "panel",
-                    "width": 513.96875
-                  },
-                  {
-                    "active": 0,
-                    "children": [
-                      "node-library"
-                    ],
-                    "height": 326,
-                    "type": "panel",
-                    "width": 204
-                  }
+                  "scene"
                 ],
                 "height": 326,
-                "type": "dock-h",
+                "type": "panel",
                 "width": 720.984375
               },
               {
@@ -91,7 +75,6 @@
         "type": "dock-h"
       },
       "panels": [
-        "node-library",
         "console",
         "timeline",
         "inspector",
@@ -99,7 +82,50 @@
         "assets",
         "scene"
       ]
+    },
+    "window-1548225479648": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 690,
+      "y": 234,
+      "width": 300,
+      "height": 502,
+      "layout": {
+        "type": "dock-v",
+        "children": [
+          {
+            "type": "panel",
+            "active": 0,
+            "children": [
+              "node-library"
+            ]
+          }
+        ]
+      },
+      "panels": [
+        "node-library"
+      ]
     }
   },
-  "panels": {}
+  "panels": {
+    "sprite-editor": {
+      "x": 590,
+      "y": 224,
+      "width": 500,
+      "height": 522
+    },
+    "project-settings": {
+      "x": 560,
+      "y": 224,
+      "width": 584,
+      "height": 548
+    },
+    "node-library": {
+      "x": 690,
+      "y": 234,
+      "width": 300,
+      "height": 502
+    }
+  }
 }

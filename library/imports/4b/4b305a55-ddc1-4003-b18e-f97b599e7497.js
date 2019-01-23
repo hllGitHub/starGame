@@ -14,7 +14,10 @@ cc._RF.push(module, '4b305pV3cFAA7GO+XtZnnSX', 'Game');
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-cc.Class({
+var Player = require('Player');
+var Star = require('Star');
+
+var Game = cc.Class({
     extends: cc.Component,
 
     properties: {
@@ -34,6 +37,14 @@ cc.Class({
         // player 节点，用于获取主角弹跳的高度，和控制主角行动开关
         player: {
             default: null,
+            type: Player
+        },
+        btnNode: {
+            default: null,
+            type: cc.Node
+        },
+        gameOverNode: {
+            default: null,
             type: cc.Node
         },
         // score label 的引用
@@ -50,49 +61,92 @@ cc.Class({
     onLoad: function onLoad() {
         // 获取地平面的 y 轴坐标
         this.groundY = this.ground.y + this.ground.height / 2;
-        // 初始化计时器
+
+        this.currentStar = null;
+        this.currentStarX = 0;
+
         this.timer = 0;
         this.starDuration = 0;
-        // 生成一个新的星星
-        this.spawnNewStar();
+
+        this.enabled = false;
+
+        this.starPool = new cc.NodePool('Star');
+
+        // this.player.stopMove()
+
+        // var player1 = require("Player")
+        // var instance = new player1()
+        // instance.stopMove()
+    },
+
+    startGame: function startGame() {
+        // 开始游戏
+        this.resetScore();
+        this.enabled = true;
         // 初始化计分
-        this.score = 0;
+        this.btnNode.x = 3000;
+        this.gameOverNode.active = false;
+        this.player.startMoveAt(cc.v2(0, this.groundY));
+
+        this.spawnNewStar();
     },
 
     spawnNewStar: function spawnNewStar() {
-        var newStar = cc.instantiate(this.starPrefab);
+        var newStar = null;
+        if (this.starPool.size() > 0) {
+            newStar = this.starPool.get(this);
+        } else {
+            newStar = cc.instantiate(this.starPrefab);
+        }
+
         this.node.addChild(newStar);
-        // cc.director.getScene().addChild(newStar);
         newStar.setPosition(this.getNewStarPosition());
-        newStar.getComponent('Star').game = this;
+        newStar.getComponent('Star').init(this);
+
+        this.startTimer();
+        this.currentStar = newStar;
+    },
+
+    despawnStar: function despawnStar(star) {
+        this.starPool.put(star);
+        this.spawnNewStar();
+    },
+
+
+    startTimer: function startTimer() {
         // 重置计时器，根据消失时间范围随机取一个值
         this.starDuration = this.minStarDuration + Math.random() * (this.maxStarDuration - this.minStarDuration);
         this.timer = 0;
     },
 
     getNewStarPosition: function getNewStarPosition() {
+        if (!this.currentStar) {
+            this.currentStarX = (Math.random() - 0.5) * 2 * this.node.width / 2;
+        }
+
         var randX = 0;
         // 根据地平面位置和主角跳跃高度，随机得到一个星星的 y 坐标
         // Math.random() 随机产生0-1之间的小数
         var randY = this.groundY + Math.random() * this.player.getComponent('Player').jumpHeight + 50;
         // 根据屏幕宽度，随机得到一个星星 x 坐标
         var maxX = this.node.width / 2;
-        randX = (Math.random() - 0.5) * 2 * maxX;
+        if (this.currentStarX >= 0) {
+            randX = -Math.random() * maxX;
+        } else {
+            randX = Math.random() * maxX;
+        }
+        this.currentStarX = randX;
         // 返回星星坐标
         return cc.v2(randX, randY);
     },
-
-    // start () {
-
-    // },
 
     // 一帧，1s有60帧，所以update的时间大约是0.01667左右
     update: function update(dt) {
         if (this.timer > this.starDuration) {
             this.gameOver();
+            this.enabled = false;
             return;
         }
-        console.log('dt = ' + dt);
         this.timer += dt;
         console.log('this.timer = ' + this.timer);
     },
@@ -104,9 +158,20 @@ cc.Class({
         cc.audioEngine.playEffect(this.scoreAudio, false);
     },
 
+    resetScore: function resetScore() {
+        this.score = 0;
+        this.scoreDisplay.string = 'Score: ' + this.score.toString();
+    },
+
     gameOver: function gameOver() {
-        this.player.stopAllActions(); // 停止 player 节点的跳跃动作，stopAllActions ,会停止对应节点上的所有action
-        cc.director.loadScene('game'); // 重新加载场景，cc.director 是一个管理游戏逻辑流程的单例对象
+        console.log("游戏结束了");
+        // this.player.stopAllActions();   // 停止 player 节点的跳跃动作，stopAllActions ,会停止对应节点上的所有action
+        // cc.director.loadScene('game');  // 重新加载场景，cc.director 是一个管理游戏逻辑流程的单例对象
+        this.gameOverNode.active = true;
+        this.player.enabled = false;
+        this.player.stopMove();
+        this.currentStar.destroy();
+        this.btnNode.x = 0;
     }
 });
 
