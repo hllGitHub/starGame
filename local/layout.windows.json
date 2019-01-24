@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 93,
-      "y": 89,
+      "x": 70,
+      "y": 62,
       "width": 1429,
       "height": 856,
       "layout": {
@@ -20,7 +20,7 @@
                 ],
                 "height": 315,
                 "type": "panel",
-                "width": 229
+                "width": 224
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 447,
                 "type": "panel",
-                "width": 229
+                "width": 224
               }
             ],
             "height": 765,
             "type": "dock-v",
-            "width": 229
+            "width": 224
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 447,
                     "type": "panel",
-                    "width": 637
+                    "width": 640
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 447,
                     "type": "panel",
-                    "width": 244
+                    "width": 246
                   }
                 ],
                 "height": 447,
                 "type": "dock-h",
-                "width": 884
+                "width": 889
               },
               {
                 "active": 0,
@@ -71,12 +71,12 @@
                 ],
                 "height": 315,
                 "type": "panel",
-                "width": 884
+                "width": 889
               }
             ],
             "height": 765,
             "type": "dock-v",
-            "width": 884
+            "width": 889
           },
           {
             "active": 0,
@@ -100,8 +100,7 @@
         "scene"
       ]
     },
-    "window-1548244119679": {},
-    "worker": {}
+    "window-1548244119679": {}
   },
   "panels": {
     "sprite-editor": {

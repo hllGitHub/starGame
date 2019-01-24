@@ -70,13 +70,8 @@ cc.Class({
 
         // 监听触摸
         var touchReceiver = cc.Canvas.instance.node;
-        // console.log('touchReveiver = ' + touchReceiver)
-        // touchReceiver.off('touchstart', this.onTouchStart, this)
-        // touchReceiver.off('touchend', this.onTouchEnd, this)
-
         // touchReceiver.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this)
         // touchReceiver.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this)
-
         touchReceiver.on('touchstart', this.onTouchStart, this);
         touchReceiver.on('touchend', this.onTouchEnd, this);
     },
